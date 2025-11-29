@@ -1,0 +1,92 @@
+/*
+ * Floating Glassmorphism Wofi
+ * Matches waybar dark theme
+ */
+
+window {
+    margin: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    background-color: rgba(20, 20, 30, 0.6);
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 13px;
+}
+
+#input {
+    margin: 12px;
+    padding: 12px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    color: #cdd6f4;
+    background-color: rgba(255, 255, 255, 0.05);
+    font-size: 13px;
+}
+
+#input:focus {
+    border: 1px solid rgba(137, 180, 250, 0.5);
+    outline: none;
+}
+
+#inner-box {
+    margin: 4px 8px 8px 8px;
+    border: none;
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 4px;
+    color: #cdd6f4;
+}
+
+#entry {
+    margin: 2px 4px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: transparent;
+    transition: all 0.2s ease;
+}
+
+#entry:selected {
+    background-color: rgba(137, 180, 250, 0.15);
+    border-radius: 8px;
+}
+
+#entry:selected #text {
+    color: #89b4fa;
+}
+
+#entry:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+#img {
+    margin-right: 10px;
+}
+
+/* Scrollbar styling */
+scrollbar {
+    background: transparent;
+    border: none;
+}
+
+scrollbar slider {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    min-width: 4px;
+    min-height: 20px;
+}
+
+scrollbar slider:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
