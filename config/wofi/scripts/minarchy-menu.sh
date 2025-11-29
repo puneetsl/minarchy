@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# CachyOS Omarchy-style Menu
+# Minarchy Menu
 # Inspired by https://github.com/basecamp/omarchy
 
 MENU_WIDTH=300

@@ -9,7 +9,7 @@ Minimal Hyprland configuration inspired by [Omarchy](https://github.com/basecamp
 ## Features
 
 - **Minimal glassmorphism design** - Floating waybar with blur effects
-- **Omarchy-style keybindings** - Intuitive Super key shortcuts
+- **Minarchy keybindings** - Intuitive Super key shortcuts
 - **Universal clipboard** - Super+C/V/X works everywhere, including terminal
 - **Smart menu system** - Quick access to settings, apps, and system controls
 - **Organized wallpapers** - Category-based wallpaper management

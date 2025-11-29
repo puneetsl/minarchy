@@ -166,7 +166,7 @@ print_keybindings() {
     echo "╠══════════════════════════════════════════════════════════════╣"
     echo "║  Super + Return        Terminal (kitty)                      ║"
     echo "║  Super + Space         App Launcher (wofi)                   ║"
-    echo "║  Super + Alt + Space   Omarchy Menu                          ║"
+    echo "║  Super + Alt + Space   Minarchy Menu                          ║"
     echo "║  Super + W             Close Window                          ║"
     echo "║  Super + F             Fullscreen                            ║"
     echo "║  Super + T             Toggle Floating                       ║"
